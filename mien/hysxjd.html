@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/hysxjd.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/mien-common.css" />
+		<link rel="stylesheet" type="text/css" href="css/zzsc.css"/>
+		<link rel="stylesheet" href="css/jquery.bxslider.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/tools.min.js" type="text/javascript"></script>
+		<script src="js/jquery.bxslider.js"></script>
+	</head>
+	<body>
+		<div class="container1">
+			<header>
+				<div class="content clearfix">
+					<div class="logo fl">
+						<a href="../index.html"><img src="images/logo.jpg" /></a>
+					</div>
+					<nav class="fl">
+						<ul>
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="../situation/jianjie.html">学院概况</a></li>
+							<li><a href="../set/environment.html">课程设置</a></li>
+							<li><a href="../mien/new students.html">校园风采</a></li>
+							<li><a href="../index.html#work">学员作品</a></li>
+							<li><a href="../source/source.html">师资力量</a></li>
+							<li><a href="../service/apply.html">学院服务</a></li>
+							<li><a href="../call us/call us.html">联系我们</a></li>
+						</ul>
+					</nav>
+					<div class="design none">
+						中关村学校欢迎你!
+					</div>
+					<div class="menu" id="menu-click">
+						<img src="images/logo.png"  />
+					</div>	
+					</div>
+			</header>
+			<div class="nav none" id="menu-totul">
+					<ul class="clearfix">
+							<li><a href="../index.html">首页</a></li>
+							<li><a href="../situation/jianjie.html">学院概况</a></li>
+							<li><a href="../set/environment.html">课程设置</a></li>
+							<li><a href="../mien/new students.html">校园风采</a></li>
+							<li><a href="../index.html#work">学员作品</a></li>
+							<li><a href="../source/source.html">师资力量</a></li>
+							<li><a href="../service/apply.html">学院服务</a></li>
+							<li><a href="../call us/call us.html">联系我们</a></li>
+					</ul>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="hysxjd clearfix">
+				<div class="slider7">
+					<div class="slide"><img src="images/hysxjd_1.jpg" /></div>
+					<div class="slide"><img src="images/hysxjd_2.jpg" /></div>
+					<div class="slide"><img src="images/hysxjd_3.jpg" /></div>
+					<div class="slide"><img src="images/hysxjd_4.jpg" /></div>
+					<div class="slide"><img src="images/hysxjd_5.jpg" /></div>
+				</div>
+				<script>
+					$(document).ready(function(){
+						$('.slider7').bxSlider({
+							slideWidth:1920,//配置焦点图的高度
+							infiniteLoop:false,
+							hideControlOnEnd:true,
+							slideMargin:0
+						});
+					});
+				</script>
+				<aside class="fl">
+					<nav>
+						<ul class="clearfix">
+							<li><a href="new students.html">新生军训</a></li>
+							<li class="hover"><a href="hysxjd.html">环艺实习<span>基地</span></a></li>
+							<li><a href="qwydh.html">趣味运动会</a></li>
+							<li><a href="dxssx.html">大学生实训</a></li>
+							<li><a href="by.html">观看话剧<span>表演</span></a></li>
+							<li><a href="sdwh.html">圣诞晚会</a></li>
+						</ul>
+					</nav>
+				</aside>
+				<section class="fl">
+					<div class="c">
+			                    <div class="c1_l">
+			                        <div class="c1_slide" id="c1_slide">
+			                            <ul>
+			                                <li><a><img src="images/hysxjd_1.jpg"></a></li>
+			                                <li><a><img src="images/hysxjd_2.jpg"></a></li>
+			                                <li><a><img src="images/hysxjd_3.jpg"></a></li>
+			                                <li><a><img src="images/hysxjd_4.jpg"></a></li>
+			                                <li><a><img src="images/hysxjd_5.jpg"></a></li>
+			                            </ul>
+			                        </div>
+			                        <div class="c1_paging">
+			                            <ul id="c1_paging">
+			                                <li class="active"><i></i><img src="images/hysxjd_11.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/hysxjd_22.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/hysxjd_33.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/hysxjd_44.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/hysxjd_55.jpg" width="110" height="65"><b></b></li>
+			                            </ul>
+			                        </div>
+			                    </div>
+			                </div>
+			                <script>
+								$("#c1_slide").scrollable({circular:true}).autoscroll({autoplay: true,interval: 3000 }).navigator("#c1_paging");
+							</script>
+					<p>
+						大学生在学校通过自己学习的努力和付出获得了一定的专业技术，只有通过实习来稳固提升专业技术才能在以后的就业工作
+						道理中更好的发展自己。学员通过实习可以更进一步的接近自己向往的公司单位，为以后的就业做好铺垫和提供参考。学校
+						和职场，学习和工作，学生和员工是发生了质的改变，它们之间有着太大的差异。而实习正式提供了一个从学生变成员工，从
+						学习变成工作。从学校走进职场的机会，让大家真实的接触职场。有了实习的经验，以后就业的道路就会少走很多弯路
+					</p>
+					<p>
+						学校的每一次改变，都是为了让家长和招生老师，没有后顾之忧。学校的每一次进步，都是为了学生更快的学业有成！
+					</p>
+				</section>
+			</div>
+		</div>
+		<div class="container3">
+			<footer class="clearfix">
+				<p>
+					咨询电话：010-58447031
+					<span>010-58447030</span>
+				</p>
+				<p>
+					咨询邮箱：bjjxkj@126.com<br />
+					<span class="mobile">Mobile</span>：15321575023
+				</p>
+				<p>
+					咨询QQ：1718693915
+					<span>1019959019</span>
+					<span>138259017</span>
+				</p>
+				<p>
+					学院网址：http://www.zgcxueyuan.com<br  />
+					学院地址：中关村学院二分院(北京市<br  />
+					海淀区中关村环保科技园温阳路170号)
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
+

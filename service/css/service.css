@@ -1,0 +1,78 @@
+.container2{max-width:1000px; margin:0 auto;}
+.container2 .service{padding-top:40px;}
+.container2 .service aside{width:264px; border-right:1px solid #bbb; float:left;}
+.container2 .service aside ul li{width:250px; height:77px; line-height:77px; border-bottom:3px solid white;}
+.container2 .service aside ul li a{display:block; padding-left:91px; font-size:22px; color:#222;}
+.container2 .service aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat 21px 18px;}
+.container2 .service aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat 21px 18px;}
+.container2 .service aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 21px 16px;}
+.container2 .service aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 21px 16px;}
+.container2 .service aside ul li:nth-of-type(3){background:url(../images/apply3.jpg) no-repeat 21px 16px;}
+.container2 .service aside ul li:nth-of-type(3):hover{background:url(../images/apply3-3.jpg) no-repeat 22px 16px;}
+.container2 .service aside ul li:nth-of-type(4){background:url(../images/apply4-4.jpg) no-repeat 21px 16px;}
+.container2 .service aside ul li:nth-of-type(4){ border-bottom:3px solid #fa9634;}
+.container2 .service aside ul li:hover{ border-bottom:3px solid #fa9634;}
+.container2 section{padding-bottom:180px; width:669px; margin-left:50px; float:left;}
+.container2 ul{margin-top:13px;}
+.container2 ul li{line-height:28px; font-size:16px; color:#222; margin-top:13px;}
+.container2 p{margin-top:7px; line-height:27px; font-size:16px; color:#222;}
+.container2 h4{font-size:18px; color:#fa9634; font-weight:bold; margin-top:13px;}
+.container2 h4:nth-of-type(1){margin-top:0; }
+@media screen and (min-width:720px) and (max-width:1000px){
+	.container2{width:100%;}
+	.container2 .service{padding:0 1.5%;padding-top:40px;}
+	.container2 .service aside{width:26.4%;}
+	.container2 .service aside ul li{width:94.33962%;}
+	.container2 .service aside ul li a{ padding-left:36.4%;}
+	.container2 .service aside ul li:first-of-type{background:url(../images/apply1-1.jpg) no-repeat 8.4% 18px;}
+	.container2 .service aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 8.4% 16px;}
+	.container2 .service aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 8.4% 16px;}
+	.container2 .service aside ul li:nth-of-type(3){background:url(../images/apply3.jpg) no-repeat 8.4% 16px;}
+	.container2 .service aside ul li:nth-of-type(3):hover{background:url(../images/apply3-3.jpg) no-repeat 8.4% 16px;}
+	.container2 .service aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat 8.4% 16px;}
+	.container2 .service aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat 8.4% 16px;}
+	.container2 .service section{width:66.9%; margin-left:5%;}
+}
+@media screen and (max-width:720px){
+	.container2{width:100%;}
+	.container2 .service{padding:0 1.5%;}
+	.container2 .service aside{width:100%; border:0; margin-bottom:10px;}
+	.container2 .service aside ul li{width:24.5%; float:left; text-align:center; border:0; height:20px; line-height:20px; padding-top:58px; margin-bottom:20px;}
+	.container2 .service aside ul li:nth-of-type(4){border:0;}
+	.container2 .service aside ul li:hover{border:0;}
+	.container2 .service aside ul li a{ padding-left:0; font-size:20px;}
+	.container2 .service aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center   18px;}
+	.container2 .service aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .service aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat center 8px;}
+	.container2 .service aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat center 8px;}
+	.container2 .service aside ul li:nth-of-type(3){background:url(../images/apply3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(3):hover{background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(4){background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .service section{width:100%; margin-left:0;}
+	.container2 .service section p{font-size:14px;}
+}
+@media screen and (min-width:410px) and (max-width:520px){
+	.container2 .service aside ul li a{font-size:20px;}
+	.container2 .service aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center 18px;}
+	.container2 .service aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .service aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 58% 8px;}
+	.container2 .service aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 58% 8px;}
+	.container2 .service aside ul li:nth-of-type(3){background:url(../images/apply3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(3):hover{background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(4){background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li span{display:none;}
+}
+@media screen and (max-width:410px){
+	.container2 .service aside ul li a{ font-size:18px;}
+	.container2 .service aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center 18px;}
+	.container2 .service aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .service aside ul li:nth-of-type(3){background:url(../images/apply3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(3):hover{background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(4){background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .service aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 64.8% 8px;}
+	.container2 .service aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 64.8% 8px;}
+	.container2 .service aside ul li span{display:none;}
+	
+}
+
+

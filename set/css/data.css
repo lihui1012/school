@@ -1,0 +1,41 @@
+
+.container2 aside nav li:nth-of-type(3).hover{background-image:url(../images/environment-3.jpg); border-bottom:3px solid #fe9635;}
+.container2 section h4{font-size:18px; height:18px; line-height:18px; color:#fa9634; margin-bottom:6px; font-weight:bold;}
+.container2 section p{font-size:16px; line-height:29px; margin-bottom:8px;}
+.container2 section p:last-of-type{margin-bottom:22px;}
+.container2 section p:nth-of-type(3)margin-bottom:24px;)
+.container2 section img{display:block;}
+.container2 section img:nth-of-type(1),.container2 section img:nth-of-type(2){margin-bottom:26px; width:100%;}
+@media screen and (min-width:720px){
+	.container2{width:100%; margin-bottom:60px;}
+	.container2 .data{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(3).hover{background-image:url(../images/environment-3.jpg);}
+}
+@media screen and (min-width:480px) and (max-width:720px){
+	.container2{width:100%; margin-top:0px;}
+	.container2 .data{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(3).hover{background-image:url(../images/environment-3.jpg); border:0;}
+}
+@media screen and (max-width:480px){
+	.container2 .data{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(3).hover{background-image:url(../images/environment-3.jpg); border:0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

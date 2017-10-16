@@ -1,0 +1,117 @@
+.container1,.container3{width:100%;}
+.container3{background:#333333; padding-bottom:53px;}
+.container1 header{ background:#333333;}
+.container1 header .content{ margin:0 auto;}
+.container1 header .content .logo img{width:100%; display:block;}
+.container1 header .content nav li a{color:#FFFFFF; display:block; font-size:14px; font-family:"微软雅黑";}
+.container1 header .content nav li:nth-of-type(6){background:#5c5c5c;}
+.container1 header .content nav li:hover{background:#5c5c5c;}
+.container1 header .content nav li{text-align:center;}
+.container1 header .content{position:relative;}
+.container1 .design{color:white;}
+.container3 footer span.mobile{padding:0; letter-spacing: 1px; display:inline-block;}
+.container3 footer p:nth-of-type(3) span:nth-of-type(2){letter-spacing:0.8px;}
+@media screen and (min-width:1000px){
+	.container1 header{width:100%; background:#333333;}
+	.container1 header .content{width:1000px; margin:0 auto;}
+	.container1 header .content .logo{width:171px; height:58px; padding-top:11px; padding-bottom:11px; margin-right:96px;}
+	.container1 header .content nav{width:733px;}
+	.container1 header .content nav li{float:left; height:80px; line-height:80px; width:94px;}
+	.container1 header .content nav li:nth-of-type(1){width:65px;}
+	.container1 header .menu{display:none;}
+	.container1 .nav,.container1 .close{display:none;}
+	/*footer*/
+	.container3 footer{max-width:1000px; width:100%; margin:0 auto; padding-top:46px;}
+	.container3 footer p{float:left; color:white; font-size:12px; width:24.5%; line-height:29px;}
+	.container3 footer p span{display:block;}
+	.container3 footer p:last-of-type{width:26.5%;}
+	.container3 footer p:nth-of-type(odd){width:14.5%; text-align:right; margin-right:10%;}
+}
+@media screen and (min-width:720px) and (max-width:1000px){
+	.container1 header .content .logo{width:17.1%; height:53px; padding-top:11px; padding-bottom:11px; margin-right: 5.6%; padding-left: 2%;}
+	.container1 header .content nav{width:73.3%;}
+	.container1 header .content nav li{float:left; height:80px; line-height:80px; width:12.8240109%;}
+	.container1 header .content nav li:nth-of-type(1){width:8.86766%;}
+	.container1 header .menu{display:none;}
+	.container1 .nav,.container1 .close{display:none;}
+	/*footer*/
+	.container3{padding-bottom:36px;}
+	.container3 footer{max-width:1000px; width:100%; margin:0 auto; padding-top:36px;}
+	.container3 footer p{float:left; color:white; font-size:12px; width:46%; line-height:29px;}
+	.container3 footer p span{display:block;}
+	.container3 footer p:nth-of-type(1),.container3 footer p:nth-of-type(3){margin-left:4%; padding-left:5%;}
+	.container3 footer p:nth-of-type(2),.container3 footer p:nth-of-type(4){margin-right:4%; padding-right:0%;}
+	.container3 footer p:nth-of-type(1),.container3 footer p:nth-of-type(2){margin-bottom:10px;}
+	.container3 footer p:nth-of-type(1),.container3 footer p:nth-of-type(3){width:25%; margin-right:16%; text-align:right;}
+	.container3 footer p:nth-of-type(3){width:24%; margin-right:17%;}
+}
+@media screen and (min-width:720px) and (max-width:721px){
+	.container3 footer p:nth-of-type(1){margin-right:16%;}
+	.container3 footer p:nth-of-type(3){margin-right:17%;}
+	
+}
+@media screen and (min-width:720px) and (max-width:840px){
+	.container1 header .content .logo{padding-top:17px; padding-bottom:0px;}
+}
+/*小屏*/
+@media screen and (max-width:720px){
+	.container1 header .content .logo{width:17.1%; padding-top:14px; height:31px; margin-right:0%; margin-left:5%;}
+	.container1 header .content nav{display:none;}
+	.container1 header .menu,.container1 .design{display:block; position:absolute;}
+	.container1 .design{left:44%; top:30%;}
+	.container1 header .menu{left:88%; top:37%;}
+	.container1 .nav{ background:#4D4D4F; width:100%; z-index:1;}
+	.container1 .nav li{text-align:center; height:36px; line-height:36px; float:left; width:25%;}
+	.container1 .nav li a{ color:white; font-size:14px; display:block;}
+	.container1 .nav li:hover{background:#3B3B3B;}
+	.container1 .nav li:nth-of-type(8){background:#3B3B3B;}
+	/*footer*/
+	.container3{padding-bottom:20px;}
+	.container3 footer{max-width:1000px; width:100%; margin:0 auto; padding-top:20px;}
+	.container3 footer p{float:left; color:white; font-size:12px; width:46%; line-height:29px;}
+	.container3 footer p span{display:block;}
+}
+@media screen and (max-width:720px) and (min-width:481px){
+	.container3 footer p:nth-of-type(1),.container3 footer p:nth-of-type(3){margin-left:4%; text-align:right;}
+	.container3 footer p:nth-of-type(2),.container3 footer p:nth-of-type(4){margin-right:4%;}
+	.container3 footer p:nth-of-type(3){width:30%; margin-right:6%;}
+	.container3 footer p:nth-of-type(1){width:31%; margin-right:15%;}
+	.container3 footer p:nth-of-type(4){width:44%; padding-left:10%; margin-right:0;}
+	.container3 footer p:nth-of-type(2){width:41%;}
+}
+@media screen and (max-width:720px) and (min-width:460px){
+	.container1 header .content .logo{width:17.1%; height:46px; padding-top:10px; margin-right:0%; margin-left:5%;}
+	.container1 header .content nav{display:none;}
+	.container1 header .menu,.container1 .design{display:block; position:absolute;}
+	.container1 .design{left:44%; top:33%; display:block;}
+	.container1 header .menu{left:88%; top:33%;}
+}
+
+@media screen and (max-width:680px) and (min-width:460px){
+	.container1 header .content .logo{width:17.1%; padding-top:8px; margin-right:0%; margin-left:5%;}
+	.container1 header .content nav{display:none;}
+	.container1 header .menu,.container1 .design{display:block; position:absolute;}
+	.container1 .design{left:41%; top:30%; display:block;}
+	.container1 header .menu{left:88%; top:32%;}
+}
+@media screen and (max-width:600px) and (min-width:460px){
+	.container1 header .content .logo img{padding-top:5px;}
+}
+@media screen and (min-width:400px) and (max-width:460px){
+	.container1 .design{left:39%;}
+	.container1 header .content .logo{padding-bottom:8px;}
+}
+@media screen and (max-width:464px){
+	.container2 .service ul.two li:nth-of-type(1) a{padding-left:24%;}
+	
+}
+@media screen and (max-width:480px){
+	.container3 footer p{width:49%; margin-right:0; margin-left:28%;}
+	.container3 footer p:nth-of-type(1),.container3 footer p:nth-of-type(3){text-align:left; width:72%; margin-left:0; padding-left:28%;}
+	.container3 footer p:nth-of-type(1) span,.container3 footer p:nth-of-type(3) span{padding-left:59px;}
+	.container3 footer p:nth-of-type(4){width:68%;}
+}
+@media screen and (max-width:400px){
+	.container1 .design{left:35%;}
+	.container1 header .content .logo{padding-bottom:3px; padding-top:19px;}
+}

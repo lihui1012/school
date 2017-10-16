@@ -1,0 +1,96 @@
+.container2{max-width:1000px; margin:0 auto;}
+.container2 .map{padding-top:40px;}
+.container2 .map aside{width:264px; border-right:1px solid #bbb; float:left;}
+.container2 .map aside ul li{width:250px; height:77px; line-height:77px; border-bottom:3px solid white;}
+.container2 .map aside ul li a{display:block; padding-left:91px; font-size:22px; color:#222;}
+.container2 .map aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat 21px 18px;}
+.container2 .map aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat 21px 18px;}
+.container2 .map aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 21px 16px;}
+.container2 .map aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 21px 16px;}
+.container2 .map aside ul li:nth-of-type(3){background:url(../images/apply3-3.jpg) no-repeat 18px 16px;}
+.container2 .map aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat 21px 16px;}
+.container2 .map aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat 21px 16px;}
+.container2 .map aside ul li:hover{ border-bottom:3px solid #fa9634;}
+.container2 .map aside ul li:nth-of-type(3){ border-bottom:3px solid #fa9634;}
+.container2 .map section{padding-bottom:185px;width:669px; margin-left:50px; float:left;}
+.container2 .map h4{margin-top:13px; height:18px; line-height:18px; font-size:18px; color:#fa9634; font-weight:bold;}
+.container2 .map h4:nth-of-type(1){margin-top:0;}
+.container2 .map p:nth-of-type(1){margin-top:13px; font-size:16px; color:#222;}
+.container2 .map div:nth-of-type(1){margin-top:5px;}
+.container2 .map div:nth-of-type(2){margin-top:7px;}
+.container2 .map div span{line-height:38px; font-size:24px; color:#222; display:inline-block; margin-right:32px; font-weight:bolder;}
+.container2 .map div span:last-of-type{margin-right:0;}
+.container2 .map p:nth-of-type(2),.container2 .map p:nth-of-type(3),.container2 .map p:nth-of-type(4){line-height:28px; font-size:16px; color:#222;}
+.container2 .map p:nth-of-type(2){margin-top:7px;}
+@media screen and (min-width:720px) and (max-width:1000px){
+	.container2{width:100%;}
+	.container2 .map{padding:0 1.5%;padding-top:40px;}
+	.container2 .map aside{width:26.4%;}
+	.container2 .map aside ul li{width:94.33962%;}
+	.container2 .map aside ul li a{ padding-left:36.4%;}
+	.container2 .map aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat 8.4%   18px;}
+	.container2 .map aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat 8.4% 18px;}
+	.container2 .map aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 8.4% 16px;}
+	.container2 .map aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 8.4% 16px;}
+	.container2 .map aside ul li:nth-of-type(3){background:url(../images/apply3-3.jpg) no-repeat 7.4% 16px;}
+	.container2 .map aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat 8.4% 16px;}
+	.container2 .map aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat 8.4% 16px;}
+	.container2 .map section{width:66.9%; margin-left:5%;}
+	
+}
+@media screen and (max-width:720px){
+	.container2{width:100%;}
+	.container2 .map{padding:0 1.5%;padding-top:20px;}
+	.container2 .map aside{width:100%; border:0; margin-bottom:10px;}
+	.container2 .map aside ul li{width:24.5%; float:left; text-align:center; border:0; height:20px; line-height:20px; padding-top:58px; margin-bottom:20px;}
+	.container2 .map aside ul li:nth-of-type(3){border:0;}
+	.container2 .map aside ul li:hover{border:0;}
+	.container2 .map aside ul li a{font-size:20px; padding-left:0;}
+	.container2 .map aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center   18px;}
+	.container2 .map aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .map aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat center 8px;}
+	.container2 .map aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat center 8px;}
+	.container2 .map aside ul li:nth-of-type(3){background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .map section{width:100%; margin-left:0; padding-bottom:80px;}
+	.container2 .map section p{font-size:14px;}
+	
+}
+@media screen and (min-width:410px) and (max-width:520px){
+	.container2 .map aside ul li a{font-size:20px;}
+	.container2 .map aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center   18px;}
+	.container2 .map aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .map aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 58% 8px;}
+	.container2 .map aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 58% 8px;}
+	.container2 .map aside ul li:nth-of-type(3){background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li span{display:none;}
+}
+@media screen and (max-width:410px){
+	.container2 .map aside ul li a{ font-size:18px;}
+	.container2 .map aside ul li:first-of-type{background:url(../images/apply1.jpg) no-repeat center   18px;}
+	.container2 .map aside ul li:first-of-type:hover{background:url(../images/apply1-1.jpg) no-repeat center 18px;}
+	.container2 .map aside ul li:nth-of-type(3){background:url(../images/apply3-3.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4){background:url(../images/apply4.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(4):hover{background:url(../images/apply4-4.jpg) no-repeat center 16px;}
+	.container2 .map aside ul li:nth-of-type(2){background:url(../images/apply2.jpg) no-repeat 64% 8px;}
+	.container2 .map aside ul li:nth-of-type(2):hover{background:url(../images/apply2-2.jpg) no-repeat 64% 8px;}
+	.container2 .map aside ul li span{display:none;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
